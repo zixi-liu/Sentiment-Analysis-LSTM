@@ -6,8 +6,9 @@
 
 <img src="https://github.com/zixi-liu/Sentiment-Analysis-LSTM/blob/main/img/LSTM-Backbone.png" alt="LSTM"/>
 
-***
-
+ <br />
+ <br />
+  
 ## Data Source
 
 The modeling dataset, **movie_review_data.tsv**, has 35,000 rows and 4 columns:
