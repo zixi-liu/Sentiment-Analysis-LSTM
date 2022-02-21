@@ -29,3 +29,9 @@ Since the task is a binary classification problem, the procedures to approach th
 - Trained a standlone vocabulary list (less than 1000 rows) from word embedding base on the corpus using word2vec;
 - Built a sentiment analysis model based on Long short-term memory Netwok (LSTM), which is a Recurrent Neural Network (RNN) based model, in order to try to predict if an review is positive (1) or negative (0); Word embedding and sentiment are then fed into the LSTM model and train over cycles.
 - The classification performance was evaluated using the area under the ROC curve (AUC). Confusion matrix from the best performing model and performance improvement over training cycles are demonstrated.
+
+## Results
+
+After training 5 epochs, model performance (AUC score) stops improving so we early stopped after the fifth training epoch. Inspecting train loss vs validation loss and train AUC score vs validation AUC score over 5 epoches, the model starts overfitting to the training data from the fourth epoch (validation cycle = 15). Since we overfit from the fourth cycle, so three epochs will be the best.
+
+<img src="https://github.com/zixi-liu/Sentiment-Analysis-LSTM/blob/main/img/Evaluation.PNG" alt="Evaluation"/>
