@@ -7,7 +7,6 @@
 <img src="https://github.com/zixi-liu/Sentiment-Analysis-LSTM/blob/main/img/LSTM-Backbone.png" alt="LSTM"/>
 
  <br />
- <br />
   
 ## Data Source
 
